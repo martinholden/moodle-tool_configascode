@@ -51,3 +51,4 @@ github_token.sh
 */node_modules
 vendor/
 .phpunit.cache
+/releases
