@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PRESET>
+  <ADMIN_SETTINGS>
+    <CORE__AUTH>
+      <SETTINGS>
+        <FOOBAR>TRUE</FOOBAR>
+        <BAZ>hello world</BAZ>
+      </SETTINGS>
+    </CORE__AUTH>
+    <NONE>
+      <SETTINGS>
+        <CUSTOMSETTING>False</CUSTOMSETTING>
+      </SETTINGS>
+    </NONE>
+  </ADMIN_SETTINGS>
+</PRESET>

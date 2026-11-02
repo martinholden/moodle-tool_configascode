@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PRESET>
+  <NAME>No settings preset</NAME>
+  <ADMIN_SETTINGS>
+    <MOD_ASSIGN>
+    </MOD_ASSIGN>
+    <NONE>
+      <SETTINGS>
+        <ALLOWEMOJIPICKER>1</ALLOWEMOJIPICKER>
+      </SETTINGS>
+    </NONE>
+  </ADMIN_SETTINGS>
+</PRESET>
