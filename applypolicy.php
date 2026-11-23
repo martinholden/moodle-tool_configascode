@@ -27,8 +27,8 @@
 // intended to be included from other Moodle code.
 // phpcs:ignoreFile moodle.Files.MoodleInternal.MoodleInternalGlobalState
 
-if (!defined('TOOL_LOCKDOWN_CONFIG_APPLYPOLICY_INCLUDED')) {
-    define('TOOL_LOCKDOWN_CONFIG_APPLYPOLICY_INCLUDED', true);
+if (!defined('TOOL_CONFIGASCODE_APPLYPOLICY_INCLUDED')) {
+    define('TOOL_CONFIGASCODE_APPLYPOLICY_INCLUDED', true);
 }
 
 require_once(__DIR__ . '/lib.php');
