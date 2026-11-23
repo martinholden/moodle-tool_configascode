@@ -24,8 +24,8 @@
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-// Coding standards ignored due to no config inclusion or moodle internal check
-// @codingStandardsIgnoreStart
+// Coding standards ignored due to no config inclusion or moodle internal check.
+// phpcs:disable
 
 // You can add new or override the common lockdown settings by entering
 // settings below here.
@@ -47,4 +47,4 @@
 //     define('CONSTANT_NAME', 'value');
 // }
 
-// @codingStandardsIgnoreEnd
+// phpcs:enable

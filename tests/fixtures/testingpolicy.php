@@ -28,10 +28,10 @@
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-// Coding standards ignored due to no config inclusion or moodle internal check
-// @codingStandardsIgnoreStart
+// Coding standards ignored due to no config inclusion or moodle internal check.
+// phpcs:disable
 
 // These test values need to be prefixed with phpunit_ otherwise they are removed.
 $CFG->phpunit_tool_configascode_testvalue1 = true;
 $CFG->phpunit_tool_configascode_testvalue2 = false;
-// @codingStandardsIgnoreEnd
+// phpcs:enable

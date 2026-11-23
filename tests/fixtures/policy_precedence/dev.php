@@ -23,12 +23,12 @@
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-// Coding standards ignored due to no config inclusion or moodle internal check
-// @codingStandardsIgnoreStart
+// Coding standards ignored due to no config inclusion or moodle internal check.
+// phpcs:disable
 // Include common lockdown fixtures settings.
 require_once(__DIR__ . '/common.php');
 
 $CFG->phpunit_tool_configascode_precedence_common_value =
     $CFG->phpunit_tool_configascode_precedence_value;
 $CFG->phpunit_tool_configascode_precedence_value = 'environment';
-// @codingStandardsIgnoreEnd
+// phpcs:enable

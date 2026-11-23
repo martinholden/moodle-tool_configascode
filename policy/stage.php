@@ -24,8 +24,8 @@
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-// Coding standards ignored due to no config inclusion or moodle internal check
-// @codingStandardsIgnoreStart
+// Coding standards ignored due to no config inclusion or moodle internal check.
+// phpcs:disable
 // Include common lockdown settings.
 require_once(__DIR__ . '/common.php');
 
@@ -49,4 +49,4 @@ require_once(__DIR__ . '/common.php');
 //     define('CONSTANT_NAME', 'value');
 // }
 
-// @codingStandardsIgnoreEnd
+// phpcs:enable

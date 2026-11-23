@@ -23,7 +23,7 @@
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-// Coding standards ignored due to no config inclusion or moodle internal check
-// @codingStandardsIgnoreStart
+// Coding standards ignored due to no config inclusion or moodle internal check.
+// phpcs:disable
 $CFG->phpunit_tool_configascode_precedence_value = 'common';
-// @codingStandardsIgnoreEnd
+// phpcs:enable

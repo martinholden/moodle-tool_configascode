@@ -119,7 +119,7 @@ class presetshelper {
         $lines = $this->append_admin_settings($xml, $lines);
         $lines = $this->append_denylist_settings($xml, $lines);
         $lines[] = '';
-        $lines[] = '// @codingStandardsIgnoreEnd';
+        $lines[] = '// phpcs:enable';
         $lines[] = '';
 
         return implode("\n", $lines);
@@ -159,8 +159,8 @@ class presetshelper {
             ' * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later',
             ' */',
             '',
-            '// Coding standards ignored due to no config inclusion or moodle internal check',
-            '// @codingStandardsIgnoreStart',
+            '// Coding standards ignored due to no config inclusion or moodle internal check.',
+            '// phpcs:disable',
             '',
             'require_once(__DIR__ . \'/common.php\');',
             '',

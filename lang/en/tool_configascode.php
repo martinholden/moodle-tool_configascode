@@ -22,6 +22,7 @@
  * @author      Martin Holden <8504612+martinholden@users.noreply.github.com>
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+
 $string['checkconfigascode_check'] = 'Configuration as Code policy check';
 $string['checkconfigascode_currenthash'] = 'Current policy hash';
 $string['checkconfigascode_environment'] = 'Environment';
