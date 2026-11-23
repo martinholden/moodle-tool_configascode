@@ -75,9 +75,13 @@ jobs:
 
     steps:
       - name: Check out repository code
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           path: plugin
+          persist-credentials: false
+
+      - name: Remove plugin Git metadata
+        run: rm -rf ./plugin/.git
 
       - name: Setup PHP ${{ matrix.php }}
         uses: shivammathur/setup-php@v2
