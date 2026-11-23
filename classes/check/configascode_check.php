@@ -74,7 +74,7 @@ class configascode_check extends check {
      * @return bool
      */
     protected function has_config_bootstrap(): bool {
-        return defined('TOOL_LOCKDOWN_CONFIG_APPLYPOLICY_INCLUDED') && TOOL_LOCKDOWN_CONFIG_APPLYPOLICY_INCLUDED === true;
+        return defined('TOOL_CONFIGASCODE_APPLYPOLICY_INCLUDED') && TOOL_CONFIGASCODE_APPLYPOLICY_INCLUDED === true;
     }
 
     /**
